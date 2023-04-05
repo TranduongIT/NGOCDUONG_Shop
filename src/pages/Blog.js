@@ -42,10 +42,10 @@ const Blog = () => {
                                 <div class="categories_details">
                                     <div class="categories_text">
                                         <a href="blog-details.html">
-                                            <h5>Social Life</h5>
+                                            <h5>Đời sống xã hội</h5>
                                         </a>
                                         <div class="border_line"></div>
-                                        <p>Enjoy your social life together</p>
+                                        <p>Tận hưởng cuộc sống xã hội của bạn cùng nhau</p>
                                     </div>
                                 </div>
                             </div>
@@ -56,10 +56,10 @@ const Blog = () => {
                                 <div class="categories_details">
                                     <div class="categories_text">
                                         <a href="blog-details.html">
-                                            <h5>Politics</h5>
+                                            <h5>Chính trị</h5>
                                         </a>
                                         <div class="border_line"></div>
-                                        <p>Be a part of politics</p>
+                                        <p>Hãy là một phần của chính trị</p>
                                     </div>
                                 </div>
                             </div>
@@ -70,10 +70,10 @@ const Blog = () => {
                                 <div class="categories_details">
                                     <div class="categories_text">
                                         <a href="blog-details.html">
-                                            <h5>Food</h5>
+                                            <h5>Thức ăn</h5>
                                         </a>
                                         <div class="border_line"></div>
-                                        <p>Let the food be finished</p>
+                                        <p>Hãy để thức ăn được hoàn thành</p>
                                     </div>
                                 </div>
                             </div>

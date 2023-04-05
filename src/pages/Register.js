@@ -36,10 +36,10 @@ const Register = () => {
                 <div className="container">
                     <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                         <div className="col-first">
-                            <h1>Login/Register</h1>
+                            <h1>Đăng nhập/Đăng ký</h1>
                             <nav className="d-flex align-items-center">
-                                <a href="index.html">Home<span className="lnr lnr-arrow-right"></span></a>
-                                <a href="category.html">Login/Register</a>
+                                <a href="index.html">Trang chủ<span className="lnr lnr-arrow-right"></span></a>
+                                <a href="category.html">Đăng nhập/Đăng ký</a>
                             </nav>
                         </div>
                     </div>
@@ -55,15 +55,15 @@ const Register = () => {
                             <div className="login_box_img">
                                 <img className="img-fluid" src={require('../assets/img/img_/login.jpg')} alt="" />
                                 <div className="hover">
-                                    <h4>New to our website?</h4>
-                                    <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
-                                    <Link className="primary-btn" to="/login">Login</Link>
+                                    <h4>Bạn mới sử dụng trang web của chúng tôi?</h4>
+                                    <p>Có những tiến bộ đang được thực hiện trong khoa học và công nghệ hàng ngày, và một ví dụ điển hình về điều này</p>
+                                    <Link className="primary-btn" to="/login">Đăng nhập</Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="login_form_inner">
-                                <h3>Sigh up to enter</h3>
+                                <h3>Nhập thông tin đăng ký</h3>
                                 <form className="row login_form" action="" method="post" id="contactForm" novalidate="novalidate">
                                     <div className="col-md-12 form-group">
                                         <input type="email" className="form-control" id="name" name="name" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" value={email} onChange={(e) => setEmail(e.target.value)} />
@@ -87,8 +87,8 @@ const Register = () => {
                                         </div>
                                     </div> */}
                                     <div className="col-md-12 form-group">
-                                        <button type="submit" value="submit" className="primary-btn" onClick={(e) => { handleRegister(e) }}>Register</button>
-                                        Are you had account?<Link className='text-info' to="/login"> Login</Link>
+                                        <button type="submit" value="submit" className="primary-btn" onClick={(e) => { handleRegister(e) }}>Đăng ký</button>
+                                        Bạn đã có tài khoản?<Link className='text-info' to="/login"> Đăng nhập</Link>
                                     </div>
                                 </form>
                             </div>

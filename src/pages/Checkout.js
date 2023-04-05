@@ -101,7 +101,7 @@ const Checkout = () => {
                     <div class="billing_details">
                         <div class="row">
                             <div class="col-lg-8">
-                                <h3>Billing Details</h3>
+                                <h3>Chi tiết thanh toán</h3>
                                 <form class="row contact_form" action="#" method="post" novalidate="novalidate">
                                     <div class="col-md-6 form-group p_star">
                                         <input required="true" placeholder='Firstname' type="text" class="form-control" id="first" name="name" onChange={(e) => setDataCheckout({ ...dataCheckout, firstname: e.target.value })} />
@@ -143,9 +143,9 @@ const Checkout = () => {
                                     </div>
                                     <div class="col-md-12 form-group">
                                         <div class="creat_account">
-                                            <h3>Shipping Details</h3>
+                                            <h3>Chi tiết vận chuyển</h3>
                                             <input type="checkbox" id="f-option3" name="selector" />
-                                            <label for="f-option3">Ship to a different address?</label>
+                                            <label for="f-option3">Gửi hàng đến một địa chỉ khác?</label>
                                         </div>
                                         <textarea class="form-control" name="message" id="message" rows="1" placeholder="Order Notes"></textarea>
                                     </div>
@@ -153,9 +153,9 @@ const Checkout = () => {
                             </div>
                             <div class="col-lg-4">
                                 <div class="order_box">
-                                    <h2>Your Order</h2>
+                                    <h2>Đơn hàng của bạn</h2>
                                     <ul class="list">
-                                        <li><a href="#">Product <span>Total</span></a></li>
+                                        <li><a href="#">Sản phẩm <span>Giá</span></a></li>
                                         {productCheckout.checkout.map((item, index) => {
                                             //   a = a + item.Products.price * item.Products.Cart_Detail.qty + productCheckout[0].Shipping.value
 
@@ -169,21 +169,20 @@ const Checkout = () => {
                                     <ul class="list list_2">
 
 
-                                        <li><a href='#'>Shipping: <span>${productCheckout.shipping}</span></a></li>
+                                        <li><a href='#'>Vận chuyển: <span>${productCheckout.shipping}</span></a></li>
                                         {/* <li><a href="#">Shipping <span>{productCheckout[0].Shipping.method}: ${productCheckout[0].Shipping.value}.00</span></a></li> */}
 
 
 
-                                        <li><a href="#">Total <span>${productCheckout.totalMoney}</span></a></li>
+                                        <li><a href="#">Giá <span>${productCheckout.totalMoney}</span></a></li>
                                     </ul>
                                     <div class="payment_item">
                                         <div class="radion_btn">
                                             <input type="radio" id="f-option5" name="selector" value={1} onChange={(e) => { setPaymentMethod(e.target.value) }} />
-                                            <label for="f-option5">Check payments</label>
+                                            <label for="f-option5">Kiểm tra thanh toán</label>
                                             <div class="check"></div>
                                         </div>
-                                        <p>Please send a check to Store Name, Store Street, Store Town, Store State / County,
-                                            Store Postcode.</p>
+                                        <p>Vui lòng gửi hóa đơn đến Tên cửa hàng / Mã bưu điện cửa hàng.</p>
                                     </div>
                                     <div class="payment_item active">
                                         <div class="radion_btn">
@@ -192,17 +191,16 @@ const Checkout = () => {
                                             <img src="img/product/card.jpg" alt="" />
                                             <div class="check"></div>
                                         </div>
-                                        <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal
-                                            account.</p>
+                                        <p>Thanh toán khi nhận hàng hoặc bạn có thể thanh toán bằng thẻ tín dụng.</p>
                                     </div>
                                     <div class="creat_account">
                                         <input type="checkbox" id="f-option4" name="selector" />
-                                        <label for="f-option4">I’ve read and accept the </label>
-                                        <a href="#">terms & conditions*</a>
+                                        <label for="f-option4">Tôi đã đọc và chấp nhận </label>
+                                        <a href="#">Điều khoản & Điều kiện</a>
                                     </div>
                                     <div onClick={() => handleProceed()}>
 
-                                        <Link class="primary-btn" to="/thank-you" onClick={(e) => preventF(e)}>Proceed to Paypal</Link>
+                                        <Link class="primary-btn" to="/thank-you" onClick={(e) => preventF(e)}>Tiến hành thanh toán</Link>
                                     </div>
                                 </div>
                             </div>

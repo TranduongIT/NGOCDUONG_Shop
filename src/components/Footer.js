@@ -7,17 +7,16 @@ const Footer = () => (
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6>About Us</h6>
+                        <h6>Về NGOCDUONGSHOP</h6>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore dolore magna aliqua.
+                            Shop bán sỉ, lẻ giày thể thao với nhiều kiểu dáng và thương hiệu lớn trên thế giới
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6>Newsletter</h6>
-                        <p>Stay update with our latest</p>
+                        <h6>Tin tức</h6>
+                        <p>Luôn cập nhật thông tin mới nhất của chúng tôi</p>
                         <div class="" id="mc_embed_signup">
                             <form
                                 target="_blank"
@@ -75,8 +74,8 @@ const Footer = () => (
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
-                        <h6>Follow Us</h6>
-                        <p>Let us be social</p>
+                        <h6>Theo dõi tôi</h6>
+                        <p>Tham gia cộng đồng</p>
                         <div class="footer-social d-flex align-items-center">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -89,11 +88,11 @@ const Footer = () => (
             <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
                 <p class="footer-text m-0">
                     {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
-                    Copyright &copy;
+                    Dương &copy;
                     <script>
                         document.write(new Date().getFullYear());
                     </script>
-                    All rights reserved
+                    NGOCDUONGSHOP
                     {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
                 </p>
             </div>

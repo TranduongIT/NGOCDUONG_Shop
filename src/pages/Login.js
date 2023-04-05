@@ -58,10 +58,10 @@ const Login = () => {
                 <div className="container">
                     <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                         <div className="col-first">
-                            <h1>Login/Register</h1>
+                            <h1>Đăng nhập/Đăng ký</h1>
                             <nav className="d-flex align-items-center">
-                                <a href="index.html">Home<span className="lnr lnr-arrow-right"></span></a>
-                                <a href="category.html">Login/Register</a>
+                                <a href="index.html">Trang chủ<span className="lnr lnr-arrow-right"></span></a>
+                                <a href="category.html">Đăng nhập/Đăng ký</a>
                             </nav>
                         </div>
                     </div>
@@ -77,15 +77,15 @@ const Login = () => {
                             <div className="login_box_img">
                                 <img className="img-fluid" src={require('../assets/img/img_/login.jpg')} alt="" />
                                 <div className="hover">
-                                    <h4>New to our website?</h4>
-                                    <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
-                                    <Link className="primary-btn" to="/register">Create an Account</Link>
+                                    <h4>Bạn mới sử dụng trang web của chúng tôi?</h4>
+                                    <p>Có những tiến bộ đang được thực hiện trong khoa học và công nghệ hàng ngày, và một ví dụ điển hình về điều này</p>
+                                    <Link className="primary-btn" to="/register">Tạo tài khoản mới</Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="login_form_inner">
-                                <h3>Log in to enter</h3>
+                                <h3>Đăng nhập để tham gia</h3>
                                 <form className="row login_form" action="" method="post" id="contactForm" novalidate="novalidate">
                                     <div className="col-md-12 form-group">
                                         <input type="text" className="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username or Email'" onChange={(e) => setUsername(e.target.value)} value={username} />
@@ -101,7 +101,7 @@ const Login = () => {
                                     </div>
                                     <div className="col-md-12 form-group">
                                         <button type="submit" value="submit" className="primary-btn" onClick={(e) => handleLogin(e)}>Log In</button>
-                                        <a href="#">Forgot Password?</a>
+                                        <a href="#">Quên mật khẩu?</a>
                                     </div>
                                 </form>
                             </div>

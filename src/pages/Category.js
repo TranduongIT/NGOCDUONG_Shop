@@ -57,11 +57,11 @@ const Category = () => {
                 <div className="container mt-3">
                     <div className="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                         <div className="col-first">
-                            <h1>Shop Category page</h1>
+                            <h1>Trang Danh mục Cửa hàng</h1>
                             <nav className="d-flex align-items-center">
                                 <Link to="index.html">Home<span className="lnr lnr-arrow-right"></span></Link>
                                 <Link to="#">Shop<span className="lnr lnr-arrow-right"></span></Link>
-                                <Link to="category.html">Fashon Category</Link>
+                                <Link to="category.html">Danh mục thời trang</Link>
                             </nav>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Category = () => {
                 <div className="row">
                     <div className="col-xl-3 col-lg-4 col-md-5">
                         <div className="sidebar-categories">
-                            <div className="head">Browse Categories</div>
+                            <div className="head">Duyệt qua các danh mục</div>
                             <ul className="main-categories">
                                 <li className="main-nav-list">
                                     <Link onClick={(e) => handleClickAdidas(e)} data-toggle="collapse" href="#fruitsVegetable" aria-expanded="false" aria-controls="fruitsVegetable"><span
@@ -88,10 +88,10 @@ const Category = () => {
                             </ul>
                         </div>
                         <div className="sidebar-filter mt-50">
-                            <div className="top-filter-head">Product Filters</div>
+                            <div className="top-filter-head">Bộ lọc sản phẩm</div>
 
                             <div className="common-filter">
-                                <div className="head">Color</div>
+                                <div className="head">Màu sắc</div>
                                 <form action="#">
                                     <ul>
                                         <li className="filter-list"><input className="pixel-radio" type="radio" id="black" name="color" /><label for="black">Black<span>(29)</span></label></li>
@@ -146,19 +146,19 @@ const Category = () => {
 
                                                         <Link to="" className="social-info">
                                                             <span className="ti-bag"><i class="fa-solid fa-cart-shopping"></i></span>
-                                                            <p className="hover-text">Add to bag</p>
+                                                            <p className="hover-text">Thêm vào túi</p>
                                                         </Link>
                                                         <Link to="" className="social-info">
                                                             <span className="lnr lnr-heart"><i class="fa-regular fa-heart"></i></span>
-                                                            <p className="hover-text">Wishlist</p>
+                                                            <p className="hover-text">Danh sách yêu thích</p>
                                                         </Link>
                                                         <Link to="" className="social-info">
                                                             <span className="lnr lnr-sync"><i class="fa-solid fa-arrows-rotate"></i></span>
-                                                            <p className="hover-text">compare</p>
+                                                            <p className="hover-text">So sánh</p>
                                                         </Link>
                                                         <Link to="" className="social-info">
                                                             <span className="lnr lnr-move"><i class="fa-solid fa-info"></i></span>
-                                                            <p className="hover-text">view more</p>
+                                                            <p className="hover-text">Xem thêm</p>
                                                         </Link>
                                                     </div>
                                                 </div>
@@ -175,8 +175,8 @@ const Category = () => {
                             <div className="sorting mr-auto">
                                 <select>
                                     <option value="1">Show 12</option>
-                                    <option value="1">Show 12</option>
-                                    <option value="1">Show 12</option>
+                                    <option value="1">Show 18</option>
+                                    <option value="1">Show 24</option>
                                 </select>
                             </div>
                             <div className="pagination">

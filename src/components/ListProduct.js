@@ -49,7 +49,7 @@ const ListProduct = () => {
                     <div class="row justify-content-center">
                         <div class="col-lg-6 text-center">
                             <div class="section-title">
-                                <h1>Latest Products</h1>
+                                <h1>Sản phẩm mới nhất</h1>
                                 <p>
 
                                 </p>

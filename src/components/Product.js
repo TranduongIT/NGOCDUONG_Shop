@@ -38,19 +38,19 @@ const Product = (props) => {
                     <div class="prd-bottom">
                         <a href="" class="social-info" onClick={(e) => addCart(e)}>
                             <span class="ti-bag"><i class="fa-solid fa-cart-shopping"></i></span>
-                            <p class="hover-text">add to bag</p>
+                            <p class="hover-text">Thêm vào túi</p>
                         </a>
                         <a href="" class="social-info">
                             <span class="lnr lnr-heart"><i class="fa-regular fa-heart"></i></span>
-                            <p class="hover-text">Wishlist</p>
+                            <p class="hover-text">Danh sách yêu thích</p>
                         </a>
                         <a href="" class="social-info">
                             <span class="lnr lnr-sync"><i class="fa-solid fa-arrows-rotate"></i></span>
-                            <p class="hover-text">compare</p>
+                            <p class="hover-text">so sánh</p>
                         </a>
                         <a href="" class="social-info">
                             <span class="lnr lnr-move"><i class="fa-solid fa-info"></i></span>
-                            <p class="hover-text"><Link to={`/product/detail/${item.id}`}>view more</Link></p>
+                            <p class="hover-text"><Link to={`/product/detail/${item.id}`}>Xem thêm</Link></p>
                         </a>
                     </div>
                 </div>

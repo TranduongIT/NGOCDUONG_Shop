@@ -5294,7 +5294,7 @@ label {
   position: absolute;
   right: 0px;
   top: 14px;
-  @icnlude transition;
+  @include transition;
 }
 .review_item .media .media-body .reply_btn:hover {
   background: #ffba00;
@@ -7415,5 +7415,3 @@ label {
 .footer-text i {
   color: #ffba00;
 }
-
-/*# sourceMappingURL=main.css.map */

@@ -22,19 +22,16 @@ const Slider = () => {
                             <div className="carousel-container">
                                 <div className="container">
                                     <h2 className="animate__animated animate__fadeInDown">
-                                        Welcome to <span>Sailor</span>
+                                        Chào mứng tới <span>NGOCDUONGSHOP</span>
                                     </h2>
                                     <p className="animate__animated animate__fadeInUp">
-                                        Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
-                                        et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-                                        mollitia ut. Similique ea voluptatem. Esse doloremque
-                                        accusamus repellendus deleniti vel. Minus et tempore modi
-                                        architecto.
+                                        NGOCDUONGSHOP là một trong những trang web bán hàng trực tuyến lớn nhất tại Đông Nam Á,
+                                        SHOP có một bộ sưu tập rộng lớn các loại giày thể cho nam, nữ và trẻ em từ các thương hiệu nổi tiếng trên thế giới.
                                     </p>
                                     <a
                                         href="#about"
                                         className="btn-get-started animate__animated animate__fadeInUp scrollto"
-                                    >Read More</a>
+                                    >Tìm hiểu thêm</a>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +56,7 @@ const Slider = () => {
                                     <a
                                         href="#about"
                                         className="btn-get-started animate__animated animate__fadeInUp scrollto"
-                                    >Read More</a>
+                                    >Tìm hiểu thêm</a>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +81,7 @@ const Slider = () => {
                                     <a
                                         href="#about"
                                         className="btn-get-started animate__animated animate__fadeInUp scrollto"
-                                    >Read More</a>
+                                    >Tìm hiểu thêm</a>
                                 </div>
                             </div>
                         </div>

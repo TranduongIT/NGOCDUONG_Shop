@@ -118,11 +118,11 @@ const Cart = () => {
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">Product</th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Sản phẩm</th>
+                                    <th scope="col">Giá</th>
+                                    <th scope="col">Số lượng</th>
                                     <th></th>
-                                    <th scope="col">Total</th>
+                                    <th scope="col">Tổng:</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -195,7 +195,7 @@ const Cart = () => {
 
                                 <tr class="bottom_button">
                                     <td>
-                                        <a class="gray_btn" href="#">Update Cart</a>
+                                        <a class="gray_btn" href="#">Cập nhật giỏ hàng</a>
                                     </td>
                                     <td>
 
@@ -206,8 +206,8 @@ const Cart = () => {
                                     <td>
                                         <div class="cupon_text d-flex align-items-center">
                                             <input type="text" placeholder="Coupon Code" />
-                                            <a class="primary-btn" href="#">Apply</a>
-                                            <a class="gray_btn" href="#">Close Coupon</a>
+                                            <a class="primary-btn" href="#">Chấp nhận</a>
+                                            <a class="gray_btn" href="#">Đóng phiếu giảm giá</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -220,13 +220,13 @@ const Cart = () => {
 
                                     </td>
                                     <td>
-                                        <h5>Shipping</h5>
+                                        <h5>Vận chuyển</h5>
                                     </td>
                                     <td>
                                         <div class="shipping_box">
                                             <ul class="list">
-                                                <li className="d-flex"> Economical delivery: $5.00<input onChange={(e) => onChange1(e)} className="radio" type="radio" value={5} name="radAnswer" /></li>
-                                                <li className="d-flex">flash Shipping: $10.00<input onChange={(e) => onChange2(e)} className="radio" type="radio" value={10} name="radAnswer" /></li>
+                                                <li className="d-flex"> Giao hàng tiết kiệm: $5.00<input onChange={(e) => onChange1(e)} className="radio" type="radio" value={5} name="radAnswer" /></li>
+                                                <li className="d-flex">Giao hàng siêu tốc: $10.00<input onChange={(e) => onChange2(e)} className="radio" type="radio" value={10} name="radAnswer" /></li>
                                                 {/* <li className="d-flex">Flat Rate: $10.00<input className="radio" type="radio" value={10} name="radAnswer" onChange={(e => setShipping(e.target.value))} /></li>
                                                 <li className="d-flex active" >Local Delivery: $2.00<input className="radio" type="radio" value={2} name="radAnswer" onChange={(e => setShipping(e.target.value))} /></li> */}
                                             </ul>
@@ -254,7 +254,7 @@ const Cart = () => {
 
                                     </td>
                                     <td>
-                                        <h5>Subtotal</h5>
+                                        <h5>Tổng phụ</h5>
                                     </td>
                                     <td>
                                         <h5 className="total">$ {total + shipping}</h5>
@@ -272,9 +272,9 @@ const Cart = () => {
                                     </td>
                                     <td>
                                         <div class="checkout_btn_inner d-flex align-items-center">
-                                            <a class="gray_btn" href="#">Continue Shopping</a>
+                                            <a class="gray_btn" href="#">Tiếp tục mua</a>
                                             <div onClick={(e) => handleProceed(e)}>
-                                                <Link class="primary-btn" to="/checkout" >Proceed to checkout</Link>
+                                                <Link class="primary-btn" to="/checkout" >Tiến hành thanh toán</Link>
                                             </div>
 
                                         </div>

@@ -58,24 +58,24 @@ const Header = () => {
                 <header id="header" className="fixed-top d-flex align-items-center">
                     <div className="container d-flex align-items-center">
 
-                        <h1 className="logo me-auto"><a href="#">Sailor</a></h1>
+                        <h1 className="logo me-auto"><a href="#">NGOCDUONGSHOP</a></h1>
 
                         <a href="index.html" className="logo me-auto"><img src="../assets/img/logo.png" alt="" className="img-fluid" /></a>
 
                         <nav id="navbar" className="navbar">
                             <ul>
                                 <li>
-                                    <Link className="active" to="/">HOME</Link>
+                                    <Link className="active" to="/">SHOP</Link>
 
                                 </li>
 
                                 <li className="dropdown"><a href="#"><span>SHOP</span> <i className="fa-solid fa-chevron-down"></i></a>
                                     <ul>
-                                        <li><Link to="/category">SHOP CATEGORY</Link></li>
-                                        <li><Link to="/product/detail">SHOP DETAIL</Link></li>
-                                        <li><a href="#">Testimonials</a></li>
+                                        <li><Link to="/category">Danh mục</Link></li>
+                                        <li><Link to="/product/detail">Chi tiết</Link></li>
+                                        <li><a href="#">Ý kiến</a></li>
 
-                                        <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
+                                        <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-right"></i></a>
                                             <ul>
                                                 <li><a href="#">Deep Drop Down 1</a></li>
                                                 <li><a href="#">Deep Drop Down 2</a></li>
@@ -98,7 +98,7 @@ const Header = () => {
                                 <li className="cart"><Link to="/cart"><i className="fa-solid fa-cart-shopping"></i></Link></li>
                                 {username ? <li className="dropdown"><Link className="getstarted ">{username}</Link>
                                     <ul>
-                                        <li><Link to="/" onClick={(e) => handleLogout(e)}>Log out</Link></li>
+                                        <li><Link to="/" onClick={(e) => handleLogout(e)}>LOG OUT</Link></li>
 
 
                                     </ul>

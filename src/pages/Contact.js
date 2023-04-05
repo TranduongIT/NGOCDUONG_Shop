@@ -27,18 +27,18 @@ const Contact = () => {
                             <div class="contact_info">
                                 <div class="info_item">
                                     <i class="lnr lnr-home"></i>
-                                    <h6>California, United States</h6>
-                                    <p>Santa monica bullevard</p>
+                                    <h6>Bắc Từ Liêm, Hà Nội</h6>
+                                    <p>Hà Nội</p>
                                 </div>
                                 <div class="info_item">
                                     <i class="lnr lnr-phone-handset"></i>
-                                    <h6><a href="#">00 (440) 9865 562</a></h6>
-                                    <p>Mon to Fri 9am to 6 pm</p>
+                                    <h6><a href="#">0986556288</a></h6>
+                                    <p>Thứ 2 đến thứ 6 8h30 đến 17h30</p>
                                 </div>
                                 <div class="info_item">
                                     <i class="lnr lnr-envelope"></i>
-                                    <h6><a href="#">support@colorlib.com</a></h6>
-                                    <p>Send us your query anytime!</p>
+                                    <h6><a href="#">ngocduong@shop.com</a></h6>
+                                    <p>Gửi cho chúng tôi truy vấn của bạn bất cứ lúc nào!</p>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div class="col-md-12 text-right">
-                                    <button type="submit" value="submit" class="primary-btn">Send Message</button>
+                                    <button type="submit" value="submit" class="primary-btn">Gửi tin nhắn</button>
                                 </div>
                             </form>
                         </div>
