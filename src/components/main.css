@@ -7415,3 +7415,14 @@ label {
 .footer-text i {
   color: #ffba00;
 }
+
+.set-imgsize{
+  width: 70px;
+  height: 70px;
+}
+
+.icon-msg{
+  height: 36px;
+  width: 16px;
+  padding-top: 12px;
+}

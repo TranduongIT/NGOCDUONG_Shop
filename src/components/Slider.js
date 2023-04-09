@@ -19,7 +19,7 @@ const Slider = () => {
                             className="carousel-item active"
                             Style="background-image: url(../assets/img/slide/slide-1.jpg)"
                         >
-                            <div className="carousel-container">
+                            <div className="carousel-container">      
                                 <div className="container">
                                     <h2 className="animate__animated animate__fadeInDown">
                                         Chào mứng tới <span>NGOCDUONGSHOP</span>
