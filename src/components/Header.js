@@ -65,7 +65,7 @@ const Header = () => {
                         <nav id="navbar" className="navbar">
                             <ul>
                                 <li>
-                                    <Link className="active" to="/">SHOP</Link>
+                                    <Link className="active" to="/">HOME</Link>
 
                                 </li>
 
@@ -74,7 +74,7 @@ const Header = () => {
                                         <li><Link to="/category">Danh mục</Link></li>
                                         <li><Link to="/product/detail">Chi tiết</Link></li>
                                         <li><a href="#">Ý kiến</a></li>
-
+{/* 
                                         <li className="dropdown"><a href="#"><span>Dropdown</span> <i className="bi bi-chevron-right"></i></a>
                                             <ul>
                                                 <li><a href="#">Deep Drop Down 1</a></li>
@@ -83,7 +83,7 @@ const Header = () => {
                                                 <li><a href="#">Deep Drop Down 4</a></li>
                                                 <li><a href="#">Deep Drop Down 5</a></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </li>
                                 <li><a href="#">ABOUT</a></li>
