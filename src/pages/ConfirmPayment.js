@@ -59,11 +59,11 @@ const ConfirmPayment = () => {
 	<!--================Order Details Area =================--> */}
             <section class="order_details section_gap">
                 <div class="container">
-                    <h3 class="title_confirmation">Thank you. Your order has been received.</h3>
+                    <h3 class="title_confirmation">Cảm ơn bạn. Đơn đặt hàng của bạn đã được xác nhận.</h3>
                     <div class="row order_d_inner">
                         <div class="col-lg-4">
                             <div class="details_item">
-                                <h4>Order Info</h4>
+                                <h4>Thông tin hóa đơn</h4>
                                 <ul class="list">
                                     {/* <li><a href="#"><span>Mã đơn hàng</span> : { }</a></li>
                                     <li><a href="#"><span>Tên</span> : {inforOrder.firstname}</a></li>
@@ -74,7 +74,7 @@ const ConfirmPayment = () => {
                         </div>
                         <div class="col-lg-4">
                             <div class="details_item">
-                                <h4>Billing Address</h4>
+                                <h4>Địa chỉ thanh toán</h4>
                                 <ul class="list">
                                     {/* <li><a href="#"><span>Địa chỉ</span> : {inforOrder.address}</a></li>
                                     <li><a href="#"><span>Xã</span> : { }</a></li>
@@ -86,14 +86,14 @@ const ConfirmPayment = () => {
 
                     </div>
                     <div class="order_details_table">
-                        <h2>Order Details</h2>
+                        <h2>Chi tiết hóa đơn</h2>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Product</th>
-                                        <th scope="col">Quantity</th>
-                                        <th scope="col">Total</th>
+                                        <th scope="col">Sản phẩm</th>
+                                        <th scope="col">Số lượng</th>
+                                        <th scope="col">Tổng tiền</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -114,7 +114,7 @@ const ConfirmPayment = () => {
 
                                     <tr>
                                         <td>
-                                            <h4>Shipping</h4>
+                                            <h4>Vận chuyển</h4>
                                         </td>
                                         <td>
                                             <h5></h5>
@@ -125,7 +125,7 @@ const ConfirmPayment = () => {
                                     </tr>
                                     <tr>
                                         <td>
-                                            <h4>Total</h4>
+                                            <h4>Tổng tiền</h4>
                                         </td>
                                         <td>
                                             <h5></h5>

@@ -5060,7 +5060,7 @@ label {
   width: 40px;
   line-height: 40px;
   text-align: center;
-  background: #828bb2;
+  background: #fbd600;
   border-radius: 50%;
   display: inline-block;
   color: #fff;
@@ -7501,4 +7501,9 @@ label {
 .prev-btn:hover,
 .next-btn:hover {
   background-color: #555;
+}
+
+
+.btn-access{
+  margin-top: 6px;
 }

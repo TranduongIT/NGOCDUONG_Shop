@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { FETCH_DATA_SUCCESS, LOGOUT } from "../redux/actions/action";
 import { INITIAL_LIST_PRODUCT } from "../redux/actions/action";

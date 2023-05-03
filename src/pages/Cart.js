@@ -206,8 +206,8 @@ const Cart = () => {
                                     <td>
                                         <div class="cupon_text d-flex align-items-center">
                                             <input type="text" placeholder="Coupon Code" />
-                                            <a class="primary-btn" href="#">Chấp nhận</a>
-                                            <a class="gray_btn" href="#">Đóng phiếu giảm giá</a>
+                                            <a class="primary-btn" href="#">APPLY</a>
+                                            <a class="gray_btn" href="#">CLOSE COUPON</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -273,7 +273,7 @@ const Cart = () => {
                                     <td>
                                         <div class="checkout_btn_inner d-flex align-items-center">
                                             <a class="gray_btn" href="#">Tiếp tục mua</a>
-                                            <div onClick={(e) => handleProceed(e)}>
+                                            <div className="btn-access" onClick={(e) => handleProceed(e)}>
                                                 <Link class="primary-btn" to="/checkout" >Tiến hành thanh toán</Link>
                                             </div>
 
