@@ -92,7 +92,7 @@ function App() {
     }
   }
   return (
-    <div className="">
+    <div>
 
       <Header />
       <Routes>
@@ -109,6 +109,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
 
       </Routes>
+
       <Footer />
 
 
